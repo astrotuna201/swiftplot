@@ -12,7 +12,7 @@ let platformTargets: [Target] = [
     .systemLibrary(
         name: "CFreeType",
         pkgConfig: "freetype2",
-        providers: [.brew(["freetype2"]), .apt(["libfreetype6-dev"])]),
+        providers: [.brew(["freetype2"]), .apt(["libfreetype-dev"])]),
     .target(
         name: "AGG",
         dependencies: ["CFreeType"]),
@@ -56,7 +56,7 @@ let platformTargets: [Target] = [
     .systemLibrary(
         name: "CFreeType",
         pkgConfig: "freetype2",
-        providers: [.brew(["freetype2"]), .apt(["libfreetype6-dev"])]),
+        providers: [.brew(["freetype2"]), .apt(["libfreetype-dev"])]),
     .target(
         name: "AGG",
         dependencies: ["CFreeType"]),
