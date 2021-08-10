@@ -18,6 +18,7 @@
 //----------------------------------------------------------------------------
 #include <cstring>
 #include <cstdio>
+#include <bits/types/FILE.h>
 #include "agg_gsv_text.h"
 #include "agg_bounding_rect.h"
 
