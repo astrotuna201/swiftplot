@@ -123,5 +123,5 @@ let package = Package(
     name: "SwiftPlot",
     products: platformProducts,
     targets: platformTargets,
-    cxxLanguageStandard: .cxx11
+    cxxLanguageStandard: .cxx14
 )
